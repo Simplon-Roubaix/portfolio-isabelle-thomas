@@ -26,17 +26,22 @@ header .container-fluid {
   align-items: center;
 }
 
+p, h6, button {
+  font-family: 'Open Sans', sans-serif;
+  }
+
   h1, h2 {
-      color: white;
-    }
+  color: white;
+}
 
-  h1 {
-    font-family: 'Indie Flower', cursive;
-  }
+  h1, h3 {
+  font-family: 'Indie Flower', cursive;
+}
 
-  h2 {
+  h2, h4 {
     font-family: 'Secular One', sans-serif;
-  }
+}
+
 /**
 
 ~~~~~~~End header~~~~~~~~
