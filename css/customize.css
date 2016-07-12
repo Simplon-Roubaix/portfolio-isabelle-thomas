@@ -1,0 +1,44 @@
+/**
+
+~~~~~~~General~~~~~~~~
+
+**/
+
+/**
+
+~~~~~~~Header~~~~~~~~
+
+**/
+
+.jumbotron {
+  height: 60vh;
+  background-image: url(../img/dubai.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header .container-fluid {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  h1, h2 {
+      color: white;
+    }
+
+  h1 {
+    font-family: 'Indie Flower', cursive;
+  }
+
+  h2 {
+    font-family: 'Secular One', sans-serif;
+  }
+/**
+
+~~~~~~~End header~~~~~~~~
+
+**/
