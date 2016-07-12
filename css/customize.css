@@ -4,6 +4,15 @@
 
 **/
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
 /**
 
 ~~~~~~~Header~~~~~~~~
@@ -26,7 +35,7 @@ header .container-fluid {
   align-items: center;
 }
 
-p, h6, button {
+p, h6, button, nav {
   font-family: 'Open Sans', sans-serif;
   }
 
@@ -45,5 +54,28 @@ p, h6, button {
 /**
 
 ~~~~~~~End header~~~~~~~~
+
+**/
+
+/**
+
+~~~~~~~Start footer~~~~~~~~
+
+**/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-family: 'Indie Flower', cursive;
+}
+
+/**
+
+~~~~~~~End footer~~~~~~~~
 
 **/
