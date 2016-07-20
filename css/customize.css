@@ -35,7 +35,7 @@ header .container-fluid {
   align-items: center;
 }
 
-p, h6, button, nav {
+p, h6, button, a, nav {
   font-family: 'Open Sans', sans-serif;
   }
 
