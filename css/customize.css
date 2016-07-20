@@ -79,3 +79,15 @@ footer p {
 ~~~~~~~End footer~~~~~~~~
 
 **/
+
+/**
+
+~~~~~~~Contact page~~~~~~~~
+
+**/
+
+#contact-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
