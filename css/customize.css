@@ -13,6 +13,34 @@ a:hover {
   color: inherit;
 }
 
+p a {
+  color: #d9534f;
+  font-style: italic;
+}
+
+p, h6, button, a, nav {
+  font-family: 'Open Sans', sans-serif;
+  }
+
+h1, h2 {
+  color: white;
+}
+
+h1, h3, footer p {
+  font-family: 'Indie Flower', cursive;
+}
+
+h2, h4 {
+    font-family: 'Secular One', sans-serif;
+}
+
+header .container-fluid, footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /**
 
 ~~~~~~~Header~~~~~~~~
@@ -29,54 +57,12 @@ a:hover {
 header .container-fluid {
   background-color: rgba(0, 0, 0, 0.5);
   height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-p, h6, button, a, nav {
-  font-family: 'Open Sans', sans-serif;
-  }
-
-  h1, h2 {
-  color: white;
-}
-
-  h1, h3 {
-  font-family: 'Indie Flower', cursive;
-}
-
-  h2, h4 {
-    font-family: 'Secular One', sans-serif;
-}
 
 /**
 
 ~~~~~~~End header~~~~~~~~
-
-**/
-
-/**
-
-~~~~~~~Start footer~~~~~~~~
-
-**/
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-footer p {
-  font-family: 'Indie Flower', cursive;
-}
-
-/**
-
-~~~~~~~End footer~~~~~~~~
 
 **/
 
